@@ -370,7 +370,7 @@ class Patterns:
       sch.dendrogram(
           Z,
           leaf_rotation=90,  # rotates the x axis labels
-          leaf_font_size=25,  # font size for the x axis labels
+          leaf_font_size=5,  # font size for the x axis labels
           labels = self.labels
 
       )
