@@ -156,10 +156,10 @@ class Patterns:
     #return self.compressed_representations.reshape((self.pattern_num, self.compression_width*self.compression_height))
   
   def Save(self, file_name = 'temp.pkl'):
-     """Save to pickle file.
-
+     """Save to pickle file	
      Keyword arguments:
      file_name -- default value = 'temp.pkl'"""
+     print "a"
      f = open(file_name, 'w')
      pickle.dump(self, f)
      f.close()
