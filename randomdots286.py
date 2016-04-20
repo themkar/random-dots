@@ -362,7 +362,7 @@ class Patterns:
       print 'Cophenetic correlation coefficient of clustering (the closer to 1, the better):', c
 
       # calculate full dendrogram
-      fig = plt.figure(figsize=(20, 10))
+      fig = plt.figure(figsize=(400, 10))
       ax = fig.add_subplot(111)
       plt.title('Hierarchical Clustering Dendrogram')
       plt.xlabel(x_label)
@@ -370,12 +370,12 @@ class Patterns:
       sch.dendrogram(
           Z,
           leaf_rotation=90,  # rotates the x axis labels
-          leaf_font_size= 2,  # font size for the x axis labels
+          leaf_font_size= 7,  # font size for the x axis labels
           labels = self.labels
 
       )
       ax.set_ylim(bottom=-0.5) 
-      ax.tick_params(labelsize=25)
+      ax.tick_params(labelsize=5)
       
   def Dendrograms(self, fig_save_as = 'temp.pdf'):
       """Generate hierarchical dendrograms for both the binary and the compressed patterns."""
