@@ -162,6 +162,7 @@ class Patterns:
      file_name -- default value = 'temp.pkl'"""
      f = open(file_name, 'w')
      pickle.dump(self, f)
+     f.close()
      
   def Load(self, file_name = 'temp.pkl'):
      """Save to pickle file.
