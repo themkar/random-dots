@@ -362,7 +362,7 @@ class Patterns:
       print 'Cophenetic correlation coefficient of clustering (the closer to 1, the better):', c
 
       # calculate full dendrogram
-      fig = plt.figure(figsize=(400, 10))
+      fig = plt.figure(figsize=(20, 10))
       ax = fig.add_subplot(111)
       plt.title('Hierarchical Clustering Dendrogram')
       plt.xlabel(x_label)
