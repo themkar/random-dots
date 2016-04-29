@@ -21,3 +21,9 @@ Also running the following will return the docstring for creating, initialising,
 import randomdots
 help(randomdots)
 ```
+
+## 286_random_dots directory
+```my_randomdots286.py```,```randomdots.py``` : generating 286 random dots, which fall into 18 categories
+```my_randomdots286_ver2.py```,```randomdots_ver2.py``` : generating 286 random dots patterns falling in 18 categories and with each item distoreted from the prototype based on its prototypicality judgement
+
+
